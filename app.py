@@ -72,7 +72,7 @@ def main():
     fuel_type = st.selectbox("Fuel Type", label_encoders["fuel_type"].classes_)
     transmission = st.selectbox("Transmission", label_encoders["transmission"].classes_)
     wheel_system_display = st.selectbox("Wheel System Display", label_encoders["wheel_system_display"].classes_)
-    mileage = st.number_input("Mileage")
+    mileage = st.number_input("Mileage") 
     year = st.number_input("Year", step=1)
     horsepower = st.number_input("Horsepower", step=1)
     city_fuel_economy = st.number_input("City Fuel Economy")
